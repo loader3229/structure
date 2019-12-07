@@ -23,7 +23,7 @@ const SKILLS = {
 		exp : 1000
 	},
 	autoTargetFilter: {
-		name: "Destination set to nowhere",
+		name: "目的地无处可去",
 		desc: "允许设定自动搜索的基础优先级",
 		req : ["autoTarget"],
 		map : 3,
@@ -76,7 +76,7 @@ const SKILLS = {
 	},
 	build1: {
 		name: "超大城市",
-		desc: "获得1点建筑能力",
+		desc: "允许在1级节点上建筑", //原文 Ability to build at level 1 points
 		map : 9,
 		req : ['upgradePoints'],
 		mult: 2,
@@ -273,7 +273,7 @@ const SKILLS = {
 	},
 	power: {
 		name: "绝对力量",
-		desc: "物理进攻不再受到精神惩罚",
+		desc: "物理伤害不再受到精神惩罚", // 原文 Physical attack ignores spirit penalty
 		map : 21,
 		mult: 2,
 		exp : 1e17
